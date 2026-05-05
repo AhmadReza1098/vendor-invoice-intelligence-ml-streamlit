@@ -111,3 +111,14 @@ Users can seamlessly toggle between two modules:
 │   ├── predict_invoice.py          # Risk flagging inference script
 │   └── app.py                      # Streamlit User Interface
 └── README.md
+
+```
+
+<h2 id="author-contact">📁 Author Contact</h2>
+
+**Ahmad Reza**  
+*Aspiring Data Analyst – ML*  
+
+- 📧 Email: ahmadreza6122@gmail.com  
+- 🔗 LinkedIn: [[www.linkedin.com/in/ahmad-reza-econ](https://www.linkedin.com/in/ahmad-reza-econ)] 
+- 🔗 GitHub:
