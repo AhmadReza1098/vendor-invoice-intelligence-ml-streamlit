@@ -19,14 +19,14 @@
 
 This project implements an **end-to-end machine learning system** designed to support finance teams by:
 1. **Predicting expected freight cost** for vendor invoices to assist with budgeting.
-![Predicting expected freight cost](images/freight_cost_prediction.png)
 3. **Flagging high-risk invoices** that require manual review due to abnormal cost, freight, or operational delivery patterns.
-![Flagging high-risk invoices](images/invoice_manual_approval.png)
 
 <h2 id="business-objectives">🎯 Business Objectives</h2>
 
 - 📉 **Improved Cost Forecasting:** Accurately predict shipping costs based on invoice dollar amounts and quantities.
+- ![Predicting expected freight cost](images/freight_cost_prediction.png)
 - 🛡️ **Reduced Financial Leakage:** Automatically detect discrepancies between billed invoices and actually received items.
+- ![Flagging high-risk invoices](images/invoice_manual_approval.png)
 - ⚡ **Faster Finance Operations:** Streamline the approval process by auto-approving safe invoices and isolating risky ones for manual review.
 
 <h2 id="data-sources">🗄️ Data Sources</h2>
