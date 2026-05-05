@@ -23,11 +23,32 @@ This project implements an **end-to-end machine learning system** designed to su
 
 <h2 id="business-objectives">🎯 Business Objectives</h2>
 
-- 📉 **Improved Cost Forecasting:** Accurately predict shipping costs based on invoice dollar amounts and quantities.
+**1. Improved Cost Forecasting:** 
+Accurately predict shipping costs based on invoice dollar amounts and quantities.
+
+**Objective:**
+Predict the freight cost for a vendor invoice using quantity, invoice value, and historic behaviour.
+
+**Why it matters**
+- Freight is a non-trivial component of landed price.
+- Poor freight estimation impact margin analysis and budgeting.
+- Early prediction improves procurement and vendor negotiation.
 ![Predicting expected freight cost](./images/freight_cost_prediction.png)
-- 🛡️ **Reduced Financial Leakage:** Automatically detect discrepancies between billed invoices and actually received items.
+
+**2. Reduced Financial Leakage:** 
+Automatically detect discrepancies between billed invoices and actually received items.
+
+**Objective:**
+Predict wheather a vendor invoice should be flagged for manual approval due to abnormal cost, freigt, or delivery patterns.
+
+**Why it matters**
+- Manual invoice review does not scale.
+- Financial leakage often occurs in large or complex invoices.
+- Early risk detection improves audit efficiency and operationa control.
   ![Flagging high-risk invoices](images/invoice_manual_approval.png)
-- ⚡ **Faster Finance Operations:** Streamline the approval process by auto-approving safe invoices and isolating risky ones for manual review.
+
+  
+⚡ **Faster Finance Operations:** Streamline the approval process by auto-approving safe invoices and isolating risky ones for manual review.
   
 <h2 id="data-sources">🗄️ Data Sources</h2>
 
