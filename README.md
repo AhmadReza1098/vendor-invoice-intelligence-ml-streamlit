@@ -24,7 +24,7 @@ This project implements an **end-to-end machine learning system** designed to su
 <h2 id="business-objectives">🎯 Business Objectives</h2>
 
 - 📉 **Improved Cost Forecasting:** Accurately predict shipping costs based on invoice dollar amounts and quantities.
-  ![Predicting expected freight cost](images/freight_cost_prediction.png)
+![Predicting expected freight cost](./images/freight_cost_prediction.png)
 - 🛡️ **Reduced Financial Leakage:** Automatically detect discrepancies between billed invoices and actually received items.
   ![Flagging high-risk invoices](images/invoice_manual_approval.png)
 - ⚡ **Faster Finance Operations:** Streamline the approval process by auto-approving safe invoices and isolating risky ones for manual review.
